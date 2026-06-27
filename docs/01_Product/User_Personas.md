@@ -1,146 +1,300 @@
-# AI Career Intelligence Platform
+# User Personas
 
-Version: 1.0
-
-Author: Ashok Karre
-
-Date: June 2026
-
-Status: Draft
+| Version | Author | Status | Last Updated |
+|----------|---------|--------|--------------|
+| 1.0 | Ashok Karre | Draft | June 2026 |
 
 ---
 
-# Product Vision
+# Purpose
 
-AI Career Intelligence Platform is an AI-powered SaaS platform that helps professionals discover international career opportunities, optimize their resumes, understand visa requirements, research companies, prepare for interviews, and manage the complete job application lifecycle from a single platform.
-
-The platform aims to become an intelligent career companion that supports users throughout their global job search journey.
+This document defines the primary and secondary users of the AI Career Intelligence Platform. Understanding user personas helps the product team design features that address real user needs and improve the overall user experience.
 
 ---
 
-# Vision Statement
+# Introduction
 
-Empower professionals worldwide to build successful international careers using Artificial Intelligence.
+The AI Career Intelligence Platform is designed for professionals seeking international career opportunities. Each user has unique goals, challenges, and expectations.
 
----
-
-# Mission Statement
-
-Provide an intelligent platform that simplifies every stage of international job searching through AI-driven automation, personalized recommendations, and data-driven insights.
+The personas defined in this document represent the target audience for the platform.
 
 ---
 
-# Problem Statement
+# Primary Persona 1 – Software Engineer
 
-International job seekers face multiple challenges:
+## Profile
 
-* Searching across many job portals
-* Tailoring resumes for every application
-* Understanding visa sponsorship opportunities
-* Researching companies
-* Tracking hundreds of applications
-* Preparing for interviews
-* Identifying skill gaps
+- Experience: 2–10 Years
+- Location: India
+- Goal: Secure a software engineering role in Europe, North America, or Australia.
 
-Existing solutions solve only one part of the problem.
+### Responsibilities
 
-The AI Career Intelligence Platform combines these capabilities into a single AI-powered ecosystem.
+- Search for jobs
+- Build resumes
+- Prepare for interviews
+- Learn new technologies
 
----
+### Pain Points
 
-# Target Users
+- Searching multiple job portals
+- Tailoring resumes manually
+- Lack of interview preparation
+- No centralized application tracker
 
-## Primary Users
+### Needs
 
-* Software Engineers
-* Data Engineers
-* Data Scientists
-* AI Engineers
-* Cloud Engineers
-* DevOps Engineers
-* Business Analysts
-
-## Secondary Users
-
-* Recruiters
-* Universities
-* Career Coaches
-* Immigration Consultants
+- AI Job Matching
+- Resume Tailoring
+- ATS Score
+- Company Intelligence
+- Application Dashboard
 
 ---
 
-# Value Proposition
+# Primary Persona 2 – Data Engineer
 
-The platform provides:
+## Profile
 
-* AI Resume Tailoring
-* AI Job Matching
-* Company Intelligence
-* Visa Intelligence
-* Resume Parser
-* Career Roadmaps
-* Interview Preparation
-* Skill Gap Analysis
-* Application Tracking
-* Recruiter Discovery
+- Experience: 3–12 Years
+- Goal: Find Data Engineering opportunities with visa sponsorship.
 
-All from one platform.
+### Pain Points
 
----
+- Understanding cloud skill requirements
+- Resume optimization
+- Finding companies sponsoring visas
+- Tracking applications
 
-# Success Metrics
+### Needs
 
-The MVP will be considered successful when it achieves:
-
-* 1,000 registered users
-* 100 daily active users
-* 80% AI job match accuracy
-* Resume tailoring in under 30 seconds
-* AI response time below 5 seconds
-* 90% user satisfaction
+- Skill Gap Analysis
+- AI Resume Optimization
+- Company Insights
+- Career Roadmap
 
 ---
 
-# Product Principles
+# Primary Persona 3 – Data Scientist / AI Engineer
 
-* AI First
-* User First
-* Privacy by Design
-* Secure by Default
-* Scalable Architecture
-* Modular Development
-* Cloud Native
-* Data Driven
+## Profile
 
----
+- Experience: 2–8 Years
 
-# MVP Scope
+### Goals
 
-Version 1.0 includes:
+- Find GenAI, ML, and Data Science roles
+- Build AI-focused resumes
+- Stay updated with AI hiring trends
 
-* User Authentication
-* Resume Upload
-* Resume Parsing
-* AI Resume Tailoring
-* AI Job Search
-* AI Job Matching
-* Company Intelligence
-* Dashboard
-* Application Tracker
+### Needs
 
-Everything else is planned for future releases.
+- AI Resume Tailoring
+- AI Skill Assessment
+- Job Recommendations
+- Learning Suggestions
 
 ---
 
-# Long-Term Vision
+# Primary Persona 4 – Cloud / DevOps Engineer
 
-The platform will evolve into a complete AI Career Operating System including:
+## Profile
 
-* AI Career Coach
-* AI Interview Coach
-* Salary Intelligence
-* Global Visa Intelligence
-* Recruiter CRM
-* Learning Recommendations
-* Career Analytics
-* Enterprise Hiring Portal
+- Experience: 3–10 Years
+
+### Goals
+
+- Find Cloud and DevOps opportunities
+- Prepare for technical interviews
+- Improve cloud certifications
+
+### Needs
+
+- Certification Recommendations
+- AI Career Coach
+- Job Search
+- Company Research
+
+---
+
+# Primary Persona 5 – International Student
+
+## Profile
+
+- Final Year Student
+- Master's Student
+- Recent Graduate
+
+### Goals
+
+- Obtain first international job
+- Build ATS-friendly resume
+- Prepare for interviews
+
+### Pain Points
+
+- Limited work experience
+- Lack of professional guidance
+- Understanding visa eligibility
+
+### Needs
+
+- Resume Builder
+- Career Roadmap
+- Learning Recommendations
+- Entry-Level Job Search
+
+---
+
+# Secondary Persona 1 – Recruiter
+
+## Goals
+
+- Search candidate profiles
+- Review resumes
+- Contact potential candidates
+- Manage hiring pipeline
+
+### Needs
+
+- Candidate Search
+- Resume Analytics
+- AI Candidate Ranking
+
+---
+
+# Secondary Persona 2 – Career Coach
+
+## Goals
+
+- Guide professionals
+- Recommend learning paths
+- Review resumes
+- Prepare candidates
+
+### Needs
+
+- Resume Analysis
+- Skill Gap Reports
+- Career Dashboard
+
+---
+
+# Secondary Persona 3 – University Career Center
+
+## Goals
+
+- Help students secure employment
+- Monitor placement progress
+- Improve employability
+
+### Needs
+
+- Student Dashboard
+- Resume Analytics
+- Placement Reports
+
+---
+
+# Common User Goals
+
+Across all personas, users want to:
+
+- Find better job opportunities
+- Save time during job search
+- Improve resume quality
+- Increase interview success
+- Understand company culture
+- Learn missing skills
+- Track applications
+- Receive AI-driven recommendations
+
+---
+
+# Common User Pain Points
+
+Users typically experience:
+
+- Fragmented job search
+- Resume rejection by ATS systems
+- Lack of interview preparation
+- Difficulty understanding visa processes
+- Manual application tracking
+- Limited career guidance
+
+---
+
+# User Journey Overview
+
+```
+Register
+      │
+      ▼
+Create Profile
+      │
+      ▼
+Upload Resume
+      │
+      ▼
+AI Resume Analysis
+      │
+      ▼
+Job Recommendations
+      │
+      ▼
+Resume Tailoring
+      │
+      ▼
+Apply for Jobs
+      │
+      ▼
+Track Applications
+      │
+      ▼
+Interview Preparation
+      │
+      ▼
+Offer Management
+```
+
+---
+
+# Design Considerations
+
+The platform should prioritize:
+
+- Simplicity
+- Personalization
+- AI-powered recommendations
+- Fast response times
+- Mobile-friendly design
+- Secure user data
+- Global accessibility
+
+---
+
+# Dependencies
+
+This document is based on:
+
+- Product_Vision.md
+- Problem_Statement.md
+- Business_Goals.md
+
+Future documents depending on this document include:
+
+- MVP_Scope.md
+- PRD.md
+- UX Design
+- UI Wireframes
+- Product Backlog
+
+---
+
+# Approval
+
+| Role | Name | Status |
+|------|------|--------|
+| Product Owner | Ashok Karre | Pending |
+| Solution Architect | TBD | Pending |
+| Technical Lead | TBD | Pending |
